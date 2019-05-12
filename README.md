@@ -15,6 +15,6 @@ There is a single function which shades the region around a curve with a transpa
 
 The first example shows the shading. The second example adds dashed lines at 1, 2 and 3 standard deviations from the line.
 
-![Example][demo.png]
+![Example](demo.png)
 
-![Example][demo_2.png]
+![Example](demo_2.png)
