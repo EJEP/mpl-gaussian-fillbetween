@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def do_gaussian_fill(x, y, ax, sig, n_sig, m_steps):
+def do_gaussian_fill(x, y, ax, sig, n_sig, m_steps, color='C0'):
     """Fill the region around a curve with Gaussian shading.
 
     Parameters
@@ -32,7 +32,7 @@ def do_gaussian_fill(x, y, ax, sig, n_sig, m_steps):
 
         alpha = np.exp(-1 * dist * dist / 2)
 
-        ax.fill_between(x, top, bottom, alpha=alpha, color='C0', linewidth=0)
-        ax.fill_between(x, top_2, bottom_2, alpha=alpha, color='C0',
+        ax.fill_between(x, top, bottom, alpha=alpha, color=color, linewidth=0)
+        ax.fill_between(x, top_2, bottom_2, alpha=alpha, color=color,
                         linewidth=0)
 
