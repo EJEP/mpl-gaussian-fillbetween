@@ -18,6 +18,7 @@ def do_gaussian_fill(x, y, ax, sig, n_sig, m_steps, color='C0'):
         Number of standard deviations away from `y` data to shade
     m_steps : int
         Number of steps to use for shading
+    color : matplotlib color
     """
 
     for i in range(0, m_steps):
